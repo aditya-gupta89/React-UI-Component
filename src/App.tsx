@@ -1,9 +1,11 @@
 import AppClass from "./app.module.scss";
+import Card from "./components/card";
+import Page from "./components/error/500";
 
 function App() {
   return (
     <div className={AppClass.app}>
-      <h1> Welcome to React UI component</h1>
+      <Page />
     </div>
   );
 }
